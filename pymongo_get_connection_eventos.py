@@ -12,7 +12,7 @@ def get_database():
     mas possui um valor padrão para uso local (Compass).
     """
     # LACUNA 2: String de conexão. Em um ambiente real, prefira usar variáveis de ambiente (os.environ.get)
-    CONNECTION_STRING = "mongodb+srv://henriquejose74984_db_user:jh3008@cluster0.mxwurdi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    CONNECTION_STRING = "mongodb+srv://<user>:<senha>@cluster0.mxwurdi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
   
     try:
